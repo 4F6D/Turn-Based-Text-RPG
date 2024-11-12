@@ -23,7 +23,25 @@
     <ClInclude Include="hp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="hitpointtypes.h">
+    <ClInclude Include="typedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="warrior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="statblock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cleric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rogue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="allClasses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,5 @@
 #pragma once
-#include "hitpointtypes.h"
+#include "typedef.h"
 
 class hp
 {
@@ -16,7 +16,6 @@ public:
 
 		return true;
 	}
-
 	void TakeDamage(hptype damage)
 	{
 		if (damage > currentHP)
@@ -27,7 +26,6 @@ public:
 		
 		currentHP -= damage;
 	}
-
 	void Heal(hptype amount)
 	{
 		if (amount + currentHP > maxHP)
@@ -38,15 +36,26 @@ public:
 
 		currentHP += amount;
 	}
-
 	hptype GetMaxHP()
 	{
 		return maxHP;
 	}
-
 	hptype GetCurrentHP()
 	{
 		return currentHP;
+	}
+	hp()
+	{
+		currentHP = 1;
+		maxHP = 1;
+	}
+	hp(hptype _currentHP, hptype _maxHP)
+	{
+		currentHP = _currentHP;
+		maxHP = _maxHP;
+
+		if (currentHP > maxHP)
+			currentHP = maxHP;
 	}
 
 private:
