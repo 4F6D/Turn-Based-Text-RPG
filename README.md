@@ -7,9 +7,9 @@ Some quick theoretical lists to get started
 
 ### classes
 - Warrior-Type: HP Growth 20 : Highest damage reduction
-- Magic-Type: HP Growth 10 : Uses magic
-- Cleric-Type: HP Growth 15 : Uses support magic
-- Rogue-Tpye: HP Growth 15 : highest consistent melee/range damage
+- Magic-Type: HP Growth 9 : Uses magic
+- Cleric-Type: HP Growth 14 : Uses support magic
+- Rogue-Tpye: HP Growth 13 : highest consistent melee/range damage
 
 ### Leveling System
 - Gain stats based on class
