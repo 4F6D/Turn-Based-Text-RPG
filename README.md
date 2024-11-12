@@ -6,10 +6,10 @@ Coding some basic RPG systems in C++ and maybe turning it into a fully fledged g
 Some quick theoretical lists to get started
 
 ### classes
-- Warrior-Type: Highest hit points
-- Magic-Type: Uses magic
-- Cleric-Type: Uses support magic
-- Rogue-Tpye: highest consistent melee/range damage
+- Warrior-Type: HP Growth 20 : Highest damage reduction
+- Magic-Type: HP Growth 10 : Uses magic
+- Cleric-Type: HP Growth 15 : Uses support magic
+- Rogue-Tpye: HP Growth 15 : highest consistent melee/range damage
 
 ### Leveling System
 - Gain stats based on class
